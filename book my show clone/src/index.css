@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev {
+    left: 0.01% !important;
+    z-index: 1;
+    }
+
+    .slick-next {    
+    right: 1.9% !important;
+    z-index: 1;
+    }
+    
+    .slick-dots    {
+    bottom: 10% !important;
+    color: white;
+    z-index: 1;
+    }
+
+    .slick-dots-color  
+    {
+    color: white;
+    background:white;
+    }
+
+    #left .slick-prev {    
+    z-index: 1;
+    }
+    
+    #right .slick-next {
+    right: 1.5% !important;
+    display: hidden;
+    z-index: 0;
+    }
